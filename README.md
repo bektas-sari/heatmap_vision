@@ -157,7 +157,7 @@ heatmap_vision/
 
 ## License
 
-MIT License. See `LICENSE` for details.
+MIT License. 
 
 ---
 
