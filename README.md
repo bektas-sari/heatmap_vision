@@ -109,21 +109,30 @@ flutter run
 ## Project Structure
 
 ```
-lib/
-  models/
-    app_state.dart
-    heatmap_metrics.dart
-  services/
-    heatmap_service.dart
-    export_service.dart
-    color_service.dart
-  screens/
-    home/
-      home_screen.dart
-    results/
-      results_screen.dart
-  widgets/
-    ...
+heatmap_vision/
+├─ lib/
+│  ├─ main.dart
+│  ├─ models/
+│  │  ├─ app_state.dart
+│  │  └─ heatmap_metrics.dart
+│  ├─ services/
+│  │  ├─ heatmap_service.dart
+│  │  ├─ export_service.dart
+│  │  └─ color_service.dart
+│  ├─ screens/
+│  │  ├─ home/
+│  │  │  └─ home_screen.dart
+│  │  └─ results/
+│  │     └─ results_screen.dart
+│  └─ widgets/
+│     └─ (optional, shared UI parts)
+├─ assets/
+│  ├─ images/      (.gitkeep)
+│  └─ icons/       (.gitkeep)
+├─ test/
+│  └─ widget_test.dart (isteğe bağlı)
+└─ pubspec.yaml
+
 ```
 
 ---
