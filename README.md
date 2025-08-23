@@ -37,16 +37,6 @@ AI‑powered, on‑device **saliency heatmap** and creative insights for adverti
 
 ---
 
-## Live Demo / Screens
-
-> Replace the placeholders below once you capture screenshots from the running app.
-
-* Results view with heatmap overlay and logo guide
-* Key Insights & Design Hints panels
-* Export flow (PNG + JSON)
-
----
-
 ## How It Works
 
 1. **Preprocess**: The input image is resized to a working map (≤512 px), converted to grayscale, then filtered with **Sobel** and **Gaussian blur** to approximate visual saliency.
