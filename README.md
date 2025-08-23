@@ -1,4 +1,4 @@
-# Heatmap Vision
+# Heatmap Vision (Flutter APP)
 
 AI‑powered, on‑device **saliency heatmap** and creative insights for advertisers. Upload an image, visualize attention distribution, and get actionable guidance for **logo/CTA placement**, **color usage**, and **typography**—all offline.
 
